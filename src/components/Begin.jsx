@@ -23,6 +23,10 @@ const Begin = () => {
     <div className="flex justify-between space-x-6 mt-10">
         <div className="h-16 w-16 rounded-full bg-blue-500"></div>
         <div className="h-16 w-16 rounded-full bg-blue-500"></div>
+
+
+
+        
         <div className="h-16 w-16 rounded-full bg-blue-500"></div>
     </div>
 

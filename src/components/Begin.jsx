@@ -44,7 +44,7 @@ const Begin = () => {
     <button className='my-2 rounded-lg bg-blue-500 px-4 py-2 mt-10 text-white ml-10 hover:bg-blue-700 focus:outline-none focus:ring focus:ring-blue-200 active:bg-blue-900'>
       Click me
     </button>
-<ul>
+<ul className='my-2 space-y-6'>
   <li className='bg-white p-2  first:bg-yellow-100'>Item 1</li>
   <li className='bg-white p-2  first:bg-yellow-100 odd:bg-green-500 even:bg-blue-500'>Item 1</li>
   <li className='bg-white p-2  first:bg-yellow-100 odd:bg-green-500 even:bg-blue-500'>Item 1</li>

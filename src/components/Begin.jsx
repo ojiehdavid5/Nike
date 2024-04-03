@@ -26,7 +26,7 @@ const Begin = () => {
 
 
 
-        
+
         <div className="h-16 w-16 rounded-full bg-blue-500"></div>
     </div>
 
@@ -37,9 +37,13 @@ const Begin = () => {
         <div className="bg-violet-500 h-12 w-18"></div>
         <div className="bg-violet-500 h-12 w-18"></div>
     </div>
-    <div className="md:block hidden">
+    <div className="lg:block hidden">
         <p>hello</p>
     </div>
+
+    <button className='my-2 rounded-lg bg-blue-500 px-4 py-2 mt-10'>
+      Click me
+    </button>
 
     
     </>

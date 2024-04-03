@@ -54,6 +54,30 @@ const Begin = () => {
   <li className='bg-white p-2  first:bg-yellow-100 odd:bg-green-500 even:bg-blue-500'>Item 1</li>
   <li className='bg-white p-2  first:bg-yellow-100 odd:bg-green-500 even:bg-blue-500'>Item 1</li>
 </ul>
+
+{/* darkTheme */}
+<div className=" m-10 rounded-lg bg-white px-6 py-8 shadow-lg ring-1 ring-slate-900/5">
+  <h3>This s a text element </h3>
+  <p>This is a even longer p tag element</p>
+
+  <button 
+  id='toggleDark'
+  
+  className="text-blue-900 px-4 py-2 text-sm font-medium mt-8 bg-blue-100 rounded-md"
+  onClick="document.body.classList.toggle('dark')"
+  
+  
+  >
+    Toggle dark mode
+
+  </button>
+</div>
+
+
+<p className='text-[120px] text-chestnut bg-stone-100 p-[16px]
+'>
+  chestNut color
+</p>
     
     </>
       

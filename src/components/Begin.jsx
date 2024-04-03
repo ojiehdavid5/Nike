@@ -20,6 +20,22 @@ const Begin = () => {
     <div className='w-10 top-0 bg-red-500 fixed h-10 left-10'>
 
     </div>
+    <div className="flex justify-between space-x-6 mt-10">
+        <div className="h-16 w-16 rounded-full bg-blue-500"></div>
+        <div className="h-16 w-16 rounded-full bg-blue-500"></div>
+        <div className="h-16 w-16 rounded-full bg-blue-500"></div>
+    </div>
+
+    <div className="grid grid-cols-5 gap-4">
+        <div className="bg-violet-500 h-12 w-18"></div>
+        <div className="bg-violet-500 h-12 w-18"></div>
+        <div className="bg-violet-500 h-12 w-18"></div>
+        <div className="bg-violet-500 h-12 w-18"></div>
+        <div className="bg-violet-500 h-12 w-18"></div>
+    </div>
+    <div className="md:block hidden">
+        <p>hello</p>
+    </div>
 
     
     </>

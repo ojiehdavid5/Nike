@@ -7,7 +7,7 @@ const Hero = () => {
   return (
     <section 
     id="home"
-    className='w-full border-2 border-red-500 p-2 h-full xl:flex-row flex-col justify-center min-h-screen max-container'
+    className='w-full border-2 border-red-500 p-2 h-full xl:flex-row  flex-col justify-center min-h-screen max-container'
     
     
     >
@@ -37,6 +37,8 @@ const Hero = () => {
 
           ))}
         </div>
+
+        
       </div>
       <div>
         <img
@@ -44,9 +46,12 @@ const Hero = () => {
         alt='shoe collection'
         width={610}
         height={500}
+        className='object-contain relative z-10'
+        
         
         />
       </div>
+
       
     </section>
   )

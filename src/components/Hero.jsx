@@ -2,6 +2,7 @@ import React from 'react'
 import Button from'./Button'
 import {arrowRight} from '../assets/icons'
 import {statistics}  from '../constants'
+import { bigShoe1 } from '../assets/images'
 const Hero = () => {
   return (
     <section 
@@ -18,7 +19,7 @@ const Hero = () => {
           <span  className='mt-3 text-orange-500 inline-block'>Nike{''}</span>
           {'    '}Shoes
         </h1>
-        <p className='font-montserrat text-gray text-lg leading-8 mt-6 mb-14 sm:max-w-sm '> Lorem ipsum dolor sit amet consectetur adipisicing elit. Soluta error amet consequuntur nisi consequatur architecto, delectus ea aliquam nobis velit!</p>
+        <p className='font-montserrat text-slate-500 text-lg leading-8 mt-6 mb-14 sm:max-w-sm '> Lorem ipsum dolor sit amet consectetur adipisicing elit. Soluta error amet consequuntur nisi consequatur architecto, delectus ea aliquam nobis velit!</p>
         <Button
         label='Show now '
         iconURL={arrowRight}
@@ -28,14 +29,23 @@ const Hero = () => {
 
           {statistics.map((stat,index)=>(
             <div className=''>
-              <p className='text-4xl'>{stat.value}</p>
-              <p>{stat.label}</p>
+              <p className='text-4xl font-palanquin font-bold' >{stat.value}</p>
+              <p className='leading-7 font-montserrat text-slate-500'>{stat.label}</p>
             </div>
 
 
 
           ))}
         </div>
+      </div>
+      <div>
+        <img
+        src={bigShoe1}
+        alt='shoe collection'
+        width={610}
+        height={500}
+        
+        />
       </div>
       
     </section>

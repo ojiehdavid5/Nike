@@ -3,9 +3,10 @@ import { products } from '../constants'
 
 const PopularProducts = () => {
   return (
-    <div>
+    <section id='products' className='max-container max-sm:mt-12'>
+
       
-    </div>
+    </section>
   )
 }
 

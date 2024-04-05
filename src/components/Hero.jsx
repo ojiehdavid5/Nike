@@ -1,7 +1,7 @@
 import React from 'react'
 import Button from'./Button'
 import {arrowRight} from '../assets/icons'
-import {statistics}  from '../constants'
+import {statistics,shoes}  from '../constants'
 import { bigShoe1 } from '../assets/images'
 const Hero = () => {
   return (
@@ -42,7 +42,7 @@ const Hero = () => {
       </div>
 
 
-      <div className='relative flex-1 flex justify-center items-center xl:min-h-screen max-xl:py-40 bg-blue-500 bg-cover  bg-hero bg-center' >
+      <div className='relative flex-1 flex justify-center items-center xl:min-h-screen max-xl:py-40 bg-primary bg-cover  bg-hero bg-center' >
         <img
         src={bigShoe1}
         alt='shoe collection'
@@ -52,6 +52,38 @@ const Hero = () => {
         
         
         />
+        <div>
+          {shoes.map((shoe,map)=>(
+            <div key={index}>
+              <ShoeCard
+              imgURL={shoe}
+              changeBigShoeImage={()=>{}}
+              bigShoeImg=""
+              
+              
+              />
+          {shoes.map((shoe,map)=>(
+            <div key={index}>
+              <ShoeCard
+              imgURL={shoe}
+              changeBigShoeImage={()=>{}}
+              bigShoeImg=""
+              
+              
+              />
+          {shoes.map((shoe,map)=>(
+            <div key={index}>
+              <ShoeCard
+              imgURL={shoe}
+              changeBigShoeImage={()=>{}}
+              bigShoeImg=""
+              
+              
+              />
+
+            </div>
+          ))}
+        </div>
       </div>
 
       

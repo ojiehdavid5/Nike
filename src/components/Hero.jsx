@@ -11,7 +11,7 @@ const Hero = () => {
     
     >
       <div className="relative xl:w-2/5 flex flex-col justify-center items-start w-full max-xl:padding-x pt-28">
-        <p clasname>Our summer collections</p>
+        <p className>Our summer collections</p>
         <h1 className='mt-30 font-palanquin text-8l max-sm:text-[70px]'> 
           <span>The new Arrival</span>
           <br />

@@ -42,7 +42,7 @@ const Hero = () => {
       </div>
 
 
-      <div className=''>
+      <div className='relative flex-1 flex justify-center'>
         <img
         src={bigShoe1}
         alt='shoe collection'

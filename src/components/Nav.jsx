@@ -25,7 +25,7 @@ const Nav = () => {
 
 
         </ul>
-        <div className='sm:hidden'>
+        <div className='sm:hidden '>
           <img src={hamburger}
           width={25}
           height={25}></img>

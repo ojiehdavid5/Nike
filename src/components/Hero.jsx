@@ -10,7 +10,7 @@ const Hero = () => {
   return (
     <section 
     id="home"
-    className='w-full border-2 border-red-500 p-2 h-full flex xl:flex-row  flex-col justify-center min-h-screen max-container'
+    className='w-full  px-12 border-2 py-12 border-red-500 p-2 h-full flex xl:flex-row  flex-col justify-center min-h-screen max-container'
     
     
     >
@@ -45,7 +45,7 @@ const Hero = () => {
       </div>
 
 
-      <div className='relative flex-1 flex justify-center items-center xl:min-h-screen max-xl:py-40 bg-blue-300 bg-cover  bg-hero bg-center' >
+      <div className='relative flex-1 flex justify-center items-center xl:min-h-screen max-xl:py-40 bg-blue-100  bg-cover  bg-hero  bg-center' >
         <img
         src={bigShoeImg}
         alt='shoe collection'

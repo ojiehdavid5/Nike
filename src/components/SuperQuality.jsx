@@ -8,7 +8,7 @@ const SuperQuality = () => {
     
     >
       <div className="flex flex-1 flex-col">
-        <h2></h2>
+        <h2>Popular product</h2>
       </div>
       
     </section>

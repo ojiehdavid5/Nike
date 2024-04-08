@@ -10,7 +10,7 @@ const Hero = () => {
   return (
     <section 
     id="home"
-    className='w-full  px-12 border-2 py-12 border-red-500 p-2 h-full flex xl:flex-row  flex-col justify-center min-h-screen max-container'
+    className='w-full  px-12  py-12  p-2 h-full flex xl:flex-row  flex-col justify-center min-h-screen max-container'
     
     
     >

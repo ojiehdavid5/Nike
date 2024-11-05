@@ -1,5 +1,7 @@
 import React from 'react'
 import Begin from './components/Begin'
+
+
 import Nav from './components/Nav'
 import Hero from './components/Hero'
 import CustomerReviews from './components/CustomerReviews'
